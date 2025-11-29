@@ -1,8 +1,8 @@
 import { Col, Row } from "react-bootstrap";
 import AnimationLottie from "../../share/animation-lottie";
 import codingJSON from "../../../assets/lottie/coding.json";
-import { DEVELOPMENT_LOTTIE } from "../../../assets/lottie/string/development";
-import { CONTACT_LOTTIE } from "../../../assets/lottie/string/contact";
+import { DEVELOPMENT_LOTTIE } from "../../../assets/lottie/string/development.js";
+import { CONTACT_LOTTIE } from "../../../assets/lottie/string/contact.js";
 import GlowCard from "../../share/glow-card";
 import { FaGraduationCap } from "react-icons/fa6";
 import Divider from "../parts/divider";
@@ -102,12 +102,7 @@ const About = () => {
       <Row>
         <Col md={6} xs={12} className=" mt-md-5 mt-3">
           <h3 className="mb-md-5 mb-2">FIND ME ON </h3>
-          <SocialMedia
-            youtube={APP_DATA.YOUTUBE_URL}
-            facebook={APP_DATA.FACEBOOK_URL}
-            tiktok={APP_DATA.TIKTOK_URL}
-            udemy={APP_DATA.UDEMY_URL}
-          />
+          <SocialMedia facebook={APP_DATA.FACEBOOK_URL} />
         </Col>
         <Col
           md={6}
