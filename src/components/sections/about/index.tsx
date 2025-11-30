@@ -79,7 +79,7 @@ const About = () => {
                       <FcWorkflow size={36} />
                     </div>
                     <div className="info">
-                      <p className="title">Update ....</p>
+                      <p className="title">Updating...</p>
                     </div>
                   </div>
                 </div>
