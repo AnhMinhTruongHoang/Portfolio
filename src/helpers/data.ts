@@ -1,7 +1,7 @@
 import softdink from "../assets/project/softdink.png";
 import ecom from "../assets/project/ecom.png";
 import custom from "../assets/project/custom.png";
-import appostI from "../assets/project/Apppost.jpg";
+import appostI from "../assets/project/apppost.jpg";
 
 export const APP_DATA = {
   YOUTUBE_URL: "https://www.youtube.com/@hoidanit",
