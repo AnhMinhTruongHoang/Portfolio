@@ -4,7 +4,7 @@ import { useTranslation } from "react-i18next";
 import softdink from "../../../assets/project/softdink.png";
 import ecom from "../../../assets/project/ecom.png";
 import custom from "../../../assets/project/custom.png";
-import appostI from "../../../assets/project/Apppost.jpg";
+import appostI from "../../../assets/project/apppost.jpg";
 
 const Project = () => {
   const { t } = useTranslation();
