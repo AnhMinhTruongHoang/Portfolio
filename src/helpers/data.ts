@@ -4,10 +4,7 @@ import custom from "../assets/project/custom.png";
 import appostI from "../assets/project/apppost.jpg";
 
 export const APP_DATA = {
-  YOUTUBE_URL: "https://www.youtube.com/@hoidanit",
-  TIKTOK_URL: "https://www.tiktok.com/@hoidanit",
-  UDEMY_URL: "https://www.udemy.com/user/eric-7039/",
-  FACEBOOK_URL: "https://www.facebook.com/askITwithERIC/",
+  FACEBOOK_URL: "https://www.facebook.com/minh.anh.223360/",
   GITHUB_URL: "https://github.com/AnhMinhTruongHoang",
   ZALO_URL: "https://chat.zalo.me/",
 };
