@@ -72,8 +72,8 @@ import vuetifyjs from "assets/svg/skills/vuetifyjs.svg";
 import webix from "assets/svg/skills/webix.svg";
 import wolframalpha from "assets/svg/skills/wolframalpha.svg";
 import wordpress from "assets/svg/skills/wordpress.svg";
-import threejs from "assets/svg/skills/Three.js.svg";
-import nestJS from "assets/svg/skills/Nest.js.svg";
+import threejs from "assets/svg/skills/three.svg";
+import nestJS from "assets/svg/skills/nest.svg";
 
 export const skillsImage = (skill: string) => {
   const skillID = skill.toLowerCase();
