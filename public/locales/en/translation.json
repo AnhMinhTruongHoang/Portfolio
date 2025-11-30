@@ -13,16 +13,109 @@
   "introSection": {
     "about": "About me",
     "and": "and",
-    "heading1": " “I've been around for a while, but I finally found something I want to do — programming, I guess… 🤷‍♂️” ",
+    "heading1": "“I've been around for a while, but I finally found something I want to do — programming, I guess… 🤷‍♂️”",
     "heading2": "I am fluent in classics like",
     "heading3": "My field of Interest's are building new",
     "heading4": "Web Technologies and Products",
     "heading5": "Whenever possible, I also apply my passion for developing products with"
   },
   "experience": {
-    "title": "Experiences"
+    "title": "Education"
   },
   "skill": {
     "title": "Skills"
+  },
+  "aboutSection": {
+    "heading": "Who I Am",
+    "intro1": "Hello everyone, I’m Minh Anh from Vietnam.",
+    "intro2": "I hold a Bachelor's degree in English Linguistics. After spending time working in non-IT fields, I realized that my true interest lies in technology, problem-solving, and building things that matter. Therefore, I decided to switch my career path to software development.",
+    "intro3": "I am currently studying the Advanced Diploma in Software Engineering (ADSE), focusing on programming, web development, system design, and modern technologies. Changing careers has been challenging, but I will always strive to improve every day.",
+    "hobbies": "Besides coding, here are some activities I enjoy:",
+    "hobby1": "Playing games",
+    "hobby2": "Reading and learning on Udemy",
+    "hobby3": "Traveling and exploring new places",
+    "quote": "\"Success doesn’t come from what you do occasionally, but from what you do consistently.\"",
+    "quoteAuthor": "Unknown",
+    "futureWork": "My Future Work",
+    "findMe": "FIND ME ON",
+    "contactMe": "Contact Me"
+  },
+  "projects": [
+    {
+      "title": "3D Landing Page – SoftDrinkX",
+      "description": "Build a 3D landing page introducing a new soft drink product line, inspired by Coca-Cola's landing pages."
+    },
+    {
+      "title": "Custom 3D Jewelry Website",
+      "description": "Build a website that allows users to customize 3D jewelry (rings, bracelets, necklaces) directly in the browser."
+    },
+    {
+      "title": "E-commerce Website",
+      "description": "Build an e-commerce website specialized in gaming products (gear, accessories, software)."
+    },
+    {
+      "title": "Post Office Management – APPost",
+      "description": "APPost is a postal management system developed to replace standalone software used by the company. The new system allows all branches to connect on a unified online platform, making sending, receiving, and tracking mails and parcels faster, more accurate, and transparent."
+    }
+  ],
+  "experiences": [
+    {
+      "title": "Dong Nai University of Technology",
+      "company": "English Linguistics",
+      "duration": "2019 - 2022"
+    },
+    {
+      "title": "Aptech",
+      "company": "Software Engineering",
+      "duration": "2024 - Present"
+    }
+  ],
+  "skills": [
+    "HTML",
+    "CSS",
+    "Javascript",
+    "Typescript",
+    "React",
+    "Next JS",
+    "NestJS",
+    "Tailwind",
+    "MongoDB",
+    "MySQL",
+    "Git",
+    "Figma",
+    "MaterialUI",
+    "Three.js",
+    "Blender"
+  ],
+
+  "projectsSection": {
+    "heading": "My Recent <span class='brand-red'>Works</span>",
+    "subheading": "Here are a few projects I've worked on recently.",
+    "projects": [
+      {
+        "title": "3D Landing Page – SoftDrinkX",
+        "description": "Build a 3D landing page introducing a new soft drink product line, inspired by Coca-Cola's landing pages.",
+        "githubLink": "https://github.com/AnhMinhTruongHoang/SoftDrinkPage",
+        "demoLink": "https://soft-drink-page.vercel.app"
+      },
+      {
+        "title": "Custom 3D Jewelry Website",
+        "description": "Build a website that allows users to customize 3D jewelry (rings, bracelets, necklaces) directly in the browser.",
+        "githubLink": "https://github.com/AnhMinhTruongHoang/JohnnyMinhJewelry",
+        "demoLink": "https://johnny-minh-jewelry.vercel.app"
+      },
+      {
+        "title": "E-commerce Website",
+        "description": "Build an e-commerce website specialized in gaming products (gear, accessories, software).",
+        "githubLink": "https://github.com/AnhMinhTruongHoang/Next-Nest-Ecommerce",
+        "demoLink": "https://next-nest-ecommerce.vercel.app"
+      },
+      {
+        "title": "Post Office Management – APPost",
+        "description": "APPost is a postal management system developed to replace standalone software used by the company. The new system allows all branches to connect on a unified online platform, making sending, receiving, and tracking mails and parcels faster, more accurate, and transparent.",
+        "githubLink": "https://github.com/AnhMinhTruongHoang/Project_03",
+        "demoLink": "https://github.com/AnhMinhTruongHoang/Project_03"
+      }
+    ]
   }
 }

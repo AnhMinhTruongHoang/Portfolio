@@ -1,62 +1,47 @@
-import nestImg from "../assets/project/nestjs.png";
-import nextjsImg from "../assets/project/nextjs.jpeg";
-import reactNativeImg from "../assets/project/react-native.png";
-import reactUltimateImg from "../assets/project/react-ultimate.png";
-import springMvcImg from "../assets/project/spring-mvc.png";
-import springRestImg from "../assets/project/spring-rest.png";
+import softdink from "../assets/project/softdink.png";
+import ecom from "../assets/project/ecom.png";
+import custom from "../assets/project/custom.png";
+import appostI from "../assets/project/Apppost.jpg";
 
 export const APP_DATA = {
   YOUTUBE_URL: "https://www.youtube.com/@hoidanit",
   TIKTOK_URL: "https://www.tiktok.com/@hoidanit",
   UDEMY_URL: "https://www.udemy.com/user/eric-7039/",
   FACEBOOK_URL: "https://www.facebook.com/askITwithERIC/",
+  GITHUB_URL: "https://github.com/AnhMinhTruongHoang",
+  ZALO_URL: "https://chat.zalo.me/",
 };
 
 export const EXPERIENCES = [
   {
     id: 1,
     title: {
-      vi: "Lập Trình Viên",
-      en: "Fullstack Developer",
+      vi: "Đại học công nghệ Đồng nai",
+      en: "Dong Nai University of Technology",
     },
     company: {
-      vi: "Công ty ABCXYZ Ltd.",
-      en: "ABCXYZ Ltd.",
+      vi: "Chuyên ngành ngôn ngữ anh",
+      en: "English linguistics.",
     },
     duration: {
-      vi: "Jan 2024 - Hiện tại",
-      en: "Jan 2024 - Present",
+      vi: "2019 - 2022",
+      en: "2019 - 2022",
     },
   },
   {
     id: 2,
     title: {
-      vi: "Lập Trình Viên",
-      en: "Fullstack Developer",
+      vi: "Aptech",
+      en: "Aptech",
     },
 
     company: {
-      vi: "Công ty F (freelancer)",
-      en: "F (freelancer)",
+      vi: "Lập trình viên",
+      en: "Software Engineering",
     },
     duration: {
-      vi: "Tháng 6/2022 - Tháng 1/2024",
-      en: "Jun 2022 - Jan 2024",
-    },
-  },
-  {
-    id: 3,
-    title: {
-      vi: "Dự án tự làm",
-      en: "Self Employed",
-    },
-    company: {
-      vi: "Học kiến thức mới mỗi ngày",
-      en: "Code and build something in everyday.",
-    },
-    duration: {
-      vi: "Tháng 1/2020 - Hiện tại",
-      en: "Jan 2020 - Present",
+      vi: "2024 - hiện tại",
+      en: "2024 - present",
     },
   },
 ];
@@ -64,69 +49,40 @@ export const EXPERIENCES = [
 export const PROJECTS = [
   {
     id: 1,
-    imgPath: reactNativeImg,
-    title: "React Native Basic",
+    imgPath: softdink,
+    title: "Dự án Landing Page 3D – SoftDrinkX",
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-    githubLink:
-      "https://hoidanit.vn/khoa-hoc/react-native-ultimate-phat-trien-ung-dung-mobile-66e7ab4578aaf477418cb538.html",
-    demoLink:
-      "https://hoidanit.vn/khoa-hoc/react-native-ultimate-phat-trien-ung-dung-mobile-66e7ab4578aaf477418cb538.html",
+      "Xây dựng một trang landing page 3D giới thiệu loạt sản phẩm nước giải khát mới, lấy cảm hứng từ phong cách landing page của Coca-Cola.",
+    githubLink: "https://github.com/AnhMinhTruongHoang/SoftDrinkPage",
+    demoLink: "https://soft-drink-page.vercel.app",
   },
   {
     id: 2,
-    imgPath: springRestImg,
-    title: "Java Spring REST",
+    imgPath: custom,
+    title: "Dự án Custom 3D - Jewelry Website",
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-    githubLink:
-      "https://hoidanit.vn/khoa-hoc/java-spring-rest-ultimate-for-beginners-6631cb577353ab6861b188f6.html",
-    demoLink:
-      "https://hoidanit.vn/khoa-hoc/java-spring-rest-ultimate-for-beginners-6631cb577353ab6861b188f6.html",
+      "Xây dựng một website cho phép người dùng tùy chỉnh trang sức 3D (nhẫn, vòng, dây chuyền…) trực tiếp trên trình duyệt",
+    githubLink: "https://github.com/AnhMinhTruongHoang/JohnnyMinhJewelry",
+    demoLink: "https://johnny-minh-jewelry.vercel.app",
   },
   {
     id: 3,
-    imgPath: springMvcImg,
-    title: "Java Spring MVC",
+    imgPath: ecom,
+    title: "Dự án E-commerce Website",
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-    githubLink:
-      "https://hoidanit.vn/khoa-hoc/java-spring-mvc-ultimate-for-beginners-65ce0b770c05f4450fbd86ac.html",
-    demoLink:
-      "https://hoidanit.vn/khoa-hoc/java-spring-mvc-ultimate-for-beginners-65ce0b770c05f4450fbd86ac.html",
+      "Xây dựng một website thương mại điện tử chuyên về sản phẩm gaming (gear, phụ kiện, phần mềm).",
+    githubLink: "https://github.com/AnhMinhTruongHoang/Next-Nest-Ecommerce",
+    demoLink: "https://next-nest-ecommerce.vercel.app",
   },
+
   {
     id: 4,
-    imgPath: nextjsImg,
-    title: "React ProMax with Next.js",
+    imgPath: appostI,
+    title: "Dự án Post office - APPost",
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-    githubLink:
-      "https://hoidanit.vn/khoa-hoc/react-pro-max-voi-nextjs-lam-chu-toan-dien-reactjs-hien-dai-65198100e6bafa8caad417a6.html",
-    demoLink:
-      "https://hoidanit.vn/khoa-hoc/react-pro-max-voi-nextjs-lam-chu-toan-dien-reactjs-hien-dai-65198100e6bafa8caad417a6.html",
-  },
-  {
-    id: 5,
-    imgPath: nestImg,
-    title: "Nest.js Basic",
-    description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-    githubLink:
-      "https://hoidanit.vn/khoa-hoc/nestjs-voi-typescript-mongodb-sieu-de-64686ec6fb456bbb90663dd6.html",
-    demoLink:
-      "https://hoidanit.vn/khoa-hoc/nestjs-voi-typescript-mongodb-sieu-de-64686ec6fb456bbb90663dd6.html",
-  },
-  {
-    id: 6,
-    imgPath: reactUltimateImg,
-    title: "React Ultimate",
-    description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-    githubLink:
-      "https://hoidanit.vn/khoa-hoc/react-ultimate-react-co-ban-tu-z-toi-a-640b50b96cc592d780aab976.html",
-    demoLink:
-      "https://hoidanit.vn/khoa-hoc/react-ultimate-react-co-ban-tu-z-toi-a-640b50b96cc592d780aab976.html",
+      "“APPost là một hệ thống quản lý bưu chính được phát triển để thay thế mô hình phần mềm độc lập mà công ty đang sử dụng. Hệ thống mới cho phép tất cả các chi nhánh kết nối trên một nền tảng trực tuyến thống nhất, giúp quá trình gửi, nhận và theo dõi thư từ, bưu phẩm trở nên nhanh hơn, chính xác hơn và minh bạch hơn.”",
+    githubLink: "https://github.com/AnhMinhTruongHoang/Project_03",
+    demoLink: "https://github.com/AnhMinhTruongHoang/Project_03",
   },
 ];
 
@@ -137,104 +93,13 @@ export const SKILLS_DATA = [
   "Typescript",
   "React",
   "Next JS",
+  "nestjs",
   "Tailwind",
   "MongoDB",
   "MySQL",
-  "PostgreSQL",
   "Git",
-  "AWS",
-  "Bootstrap",
-  "Docker",
-  "Go",
   "Figma",
-  "Firebase",
   "MaterialUI",
-  "Nginx",
-  "Strapi",
+  "threejs",
+  "blender",
 ];
-
-// Choose your skills from below. Make sure it's in the same format and spelled correctly.
-// Couldn't find the required skills? Raise an issue on github at https://github.com/hhhrrrttt222111/developer-portfolio/issues/new
-
-// AVAILABLE SKILLS
-
-/* 
-    HTML
-    CSS
-    JS 
-    React
-    Next JS
-    Nuxt JS
-    Node JS
-    Vue
-    Angular
-    Docker
-    Photoshop
-    Illustrator
-    Svelte
-    GCP
-    Azure
-    Fastify
-    Haxe
-    Ionic
-    Markdown
-    Microsoft Office
-    Picsart
-    Sketch
-    Unity
-    WolframAlpha
-    Adobe XD
-    After Effects
-    Bootstrap
-    Bulma
-    CapacitorJs
-    Coffeescript
-    MemSQL
-    C
-    C++
-    C#
-    Python
-    Java
-    Julia
-    Matlab
-    Swift
-    Ruby
-    Kotlin
-    Go
-    PHP
-    Flutter
-    Dart
-    Typescript
-    Swift
-    Git
-    Figma
-    Canva
-    Ubuntu
-    Bootstrap
-    MongoDB
-    Tailwind
-    ViteJS
-    VuetifyJS
-    MySQL
-    PostgreSQL
-    AWS
-    Firebase
-    Blender
-    Premiere Pro
-    Adobe Audition
-    Deno
-    Django
-    Gimp
-    Graphql
-    Lightroom
-    MaterialUI
-    Nginx
-    Numpy
-    OpenCV
-    Pytorch
-    Selenium
-    Strapi
-    Tensorflow
-    Webex
-    Wordpress
-  */

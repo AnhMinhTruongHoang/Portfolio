@@ -1,4 +1,3 @@
-import React from "react";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import { CgWebsite } from "react-icons/cg";
@@ -19,15 +18,19 @@ function ProjectCard(props: IProps) {
         variant="top"
         src={props.imgPath}
         alt="card-img"
-        style={{ maxHeight: 215 }}
+        style={{
+          height: 215,
+          objectFit: "cover",
+        }}
       />
+
       <Card.Body className="d-flex flex-column">
-        <Card.Title>{props.title}</Card.Title>
+        <Card.Title style={{ textAlign: "center" }}>{props.title}</Card.Title>
         <div className="d-flex flex-column justify-content-between h-100">
           <Card.Text style={{ textAlign: "justify" }}>
             {props.description}
           </Card.Text>
-          <div>
+          <div style={{ textAlign: "center" }}>
             <Button variant="primary" href={props.githubLink} target="_blank">
               <BsGithub /> &nbsp; Github
             </Button>

@@ -72,6 +72,8 @@ import vuetifyjs from "assets/svg/skills/vuetifyjs.svg";
 import webix from "assets/svg/skills/webix.svg";
 import wolframalpha from "assets/svg/skills/wolframalpha.svg";
 import wordpress from "assets/svg/skills/wordpress.svg";
+import threejs from "assets/svg/skills/Three.js.svg";
+import nestJS from "assets/svg/skills/Nest.js.svg";
 
 export const skillsImage = (skill: string) => {
   const skillID = skill.toLowerCase();
@@ -98,6 +100,8 @@ export const skillsImage = (skill: string) => {
       return javascript;
     case "next js":
       return nextJS;
+    case "nestjs":
+      return nestJS;
     case "nuxt js":
       return nuxtJS;
     case "react":
@@ -164,6 +168,8 @@ export const skillsImage = (skill: string) => {
       return deno;
     case "django":
       return django;
+    case "threejs":
+      return threejs;
     case "firebase":
       return firebase;
     case "gimp":

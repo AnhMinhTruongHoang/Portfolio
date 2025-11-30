@@ -20,9 +20,102 @@
     "heading5": "Bất cứ khi nào có thể, tôi cũng áp dụng niềm đam mê phát triển sản phẩm của mình với"
   },
   "experience": {
-    "title": "Kinh nghiệm làm việc"
+    "title": "Học vấn"
   },
   "skill": {
     "title": "Kỹ năng"
+  },
+
+  "aboutSection": {
+    "heading": "Tôi là ai",
+    "intro1": "Xin chào mọi người, tôi là Minh Anh đến từ Việt Nam.",
+    "intro2": "Tôi có bằng Cử nhân Ngôn ngữ Anh. Sau một thời gian làm việc trong các lĩnh vực không liên quan đến CNTT, tôi nhận ra rằng sở thích thực sự của mình là công nghệ, giải quyết vấn đề và xây dựng những thứ có giá trị. Vì vậy, tôi quyết định chuyển hướng sự nghiệp sang phát triển phần mềm.",
+    "intro3": "Hiện tại tôi đang học Chương trình Advanced Diploma in Software Engineering (ADSE), tập trung vào lập trình, phát triển web. Việc chuyển nghề đầy thử thách, nhưng tôi  sẽ luôn nỗ lực cải thiện mỗi ngày.",
+    "hobbies": "Ngoài lập trình, đây là một số hoạt động tôi yêu thích:",
+    "hobby1": "Chơi game",
+    "hobby2": "Đọc sách và học trên Udemy",
+    "hobby3": "Du lịch và khám phá những nơi mới",
+    "quote": "\"Thành công không đến từ những gì bạn làm thỉnh thoảng, mà từ những gì bạn làm liên tục.\"",
+    "quoteAuthor": "Người ẩn danh",
+    "futureWork": "Công việc tương lai của tôi",
+    "findMe": "TÌM TÔI TRÊN",
+    "contactMe": "Liên hệ với tôi"
+  },
+  "projects": [
+    {
+      "title": "Dự án Landing Page 3D – SoftDrinkX",
+      "description": "Xây dựng một trang landing page 3D giới thiệu loạt sản phẩm nước giải khát mới, lấy cảm hứng từ phong cách landing page của Coca-Cola."
+    },
+    {
+      "title": "Dự án Custom 3D - Jewelry Website",
+      "description": "Xây dựng một website cho phép người dùng tùy chỉnh trang sức 3D (nhẫn, vòng, dây chuyền…) trực tiếp trên trình duyệt."
+    },
+    {
+      "title": "Dự án E-commerce Website",
+      "description": "Xây dựng một website thương mại điện tử chuyên về sản phẩm gaming (gear, phụ kiện, phần mềm)."
+    },
+    {
+      "title": "Dự án Post office - APPost",
+      "description": "APPost là một hệ thống quản lý bưu chính thay thế mô hình phần mềm độc lập. Hệ thống mới kết nối tất cả chi nhánh trên nền tảng trực tuyến, giúp gửi, nhận, theo dõi thư từ, bưu phẩm nhanh hơn, chính xác và minh bạch hơn."
+    }
+  ],
+  "experiences": [
+    {
+      "title": "Đại học Công nghệ Đồng Nai",
+      "company": "Ngôn ngữ Anh",
+      "duration": "2019 - 2022"
+    },
+    {
+      "title": "Aptech",
+      "company": "Lập trình viên",
+      "duration": "2024 - hiện tại"
+    }
+  ],
+  "skills": [
+    "HTML",
+    "CSS",
+    "Javascript",
+    "Typescript",
+    "React",
+    "Next JS",
+    "NestJS",
+    "Tailwind",
+    "MongoDB",
+    "MySQL",
+    "Git",
+    "Figma",
+    "MaterialUI",
+    "Three.js",
+    "Blender"
+  ],
+  "projectsSection": {
+    "heading": "Các <span class='brand-red'>Dự Án</span> Gần Đây Của Tôi",
+    "subheading": "Dưới đây là một số dự án mà tôi đã thực hiện gần đây.",
+    "projects": [
+      {
+        "title": "Landing Page 3D – SoftDrinkX",
+        "description": "Xây dựng một trang landing page 3D giới thiệu loạt sản phẩm nước giải khát mới, lấy cảm hứng từ các landing page của Coca-Cola.",
+        "githubLink": "https://github.com/AnhMinhTruongHoang/SoftDrinkPage",
+        "demoLink": "https://soft-drink-page.vercel.app"
+      },
+      {
+        "title": "Website Trang Sức 3D Tùy Chỉnh",
+        "description": "Xây dựng một website cho phép người dùng tùy chỉnh trang sức 3D (nhẫn, vòng, dây chuyền) trực tiếp trên trình duyệt.",
+        "githubLink": "https://github.com/AnhMinhTruongHoang/JohnnyMinhJewelry",
+        "demoLink": "https://johnny-minh-jewelry.vercel.app"
+      },
+      {
+        "title": "Website Thương Mại Điện Tử",
+        "description": "Xây dựng một website thương mại điện tử chuyên về các sản phẩm gaming (gear, phụ kiện, phần mềm).",
+        "githubLink": "https://github.com/AnhMinhTruongHoang/Next-Nest-Ecommerce",
+        "demoLink": "https://next-nest-ecommerce.vercel.app"
+      },
+      {
+        "title": "Quản Lý Bưu Điện – APPost",
+        "description": "APPost là một hệ thống quản lý bưu chính được phát triển để thay thế phần mềm độc lập mà công ty đang sử dụng. Hệ thống mới cho phép tất cả các chi nhánh kết nối trên một nền tảng trực tuyến thống nhất, giúp việc gửi, nhận và theo dõi thư từ, bưu phẩm trở nên nhanh hơn, chính xác hơn và minh bạch hơn.",
+        "githubLink": "https://github.com/AnhMinhTruongHoang/Project_03",
+        "demoLink": "https://github.com/AnhMinhTruongHoang/Project_03"
+      }
+    ]
   }
 }

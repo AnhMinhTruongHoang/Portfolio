@@ -6,6 +6,7 @@ import ResizeButton from "../parts/resize.button.tsx";
 import { APP_DATA } from "@/helpers/data.js";
 import { MdFileDownload } from "react-icons/md";
 import { AiFillFire } from "react-icons/ai";
+import CVFile from "../../../assets/cv/Truong-Hoang-Anh-Minh-CV.pdf";
 
 interface IProps {
   scrollToExperienceSection: () => void;
@@ -20,7 +21,10 @@ const HeroLeft = (props: IProps) => {
   };
 
   const handleDownLoadCV = () => {
-    openInNewTab("https://www.youtube.com/watch?v=BDwnnKp35B4");
+    const link = document.createElement("a");
+    link.href = CVFile;
+    link.download = "Truong-Hoang-Anh-Minh-CV.pdf";
+    link.click();
   };
 
   return (
@@ -37,12 +41,7 @@ const HeroLeft = (props: IProps) => {
       </h3>
       <Typewriter
         options={{
-          strings: [
-            "Software Developer",
-            "Freelancer",
-            "MERN Stack Developer",
-            "Open Source Contributor",
-          ],
+          strings: ["Software Developer", "Intern", "Open Source Contributor"],
           autoStart: true,
           loop: true,
           deleteSpeed: 50,
@@ -51,10 +50,9 @@ const HeroLeft = (props: IProps) => {
       />
       <div className="mt-md-6 mt-3 mb-md-5 mb-2">
         <SocialMedia
-          youtube={APP_DATA.YOUTUBE_URL}
+          github={APP_DATA.GITHUB_URL}
           facebook={APP_DATA.FACEBOOK_URL}
-          tiktok={APP_DATA.TIKTOK_URL}
-          udemy={APP_DATA.UDEMY_URL}
+          zalo={APP_DATA.ZALO_URL}
         />
       </div>
       <div className="d-md-flex d-none gap-4">
