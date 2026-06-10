@@ -28,15 +28,15 @@
 
   "aboutSection": {
     "heading": "Tôi là ai",
-    "intro1": "Xin chào mọi người, tôi là  Anh Minh đến từ Việt Nam.",
+    "intro1": "Xin chào mọi người, tên tôi là  Trương Hoàng Anh Minh đến từ Việt Nam.",
     "intro2": "Tôi có bằng Cử nhân Ngôn ngữ Anh. Sau một thời gian làm việc trong các lĩnh vực không liên quan đến CNTT, tôi nhận ra rằng sở thích thực sự của mình là công nghệ, giải quyết vấn đề và xây dựng những thứ có giá trị. Vì vậy, tôi quyết định chuyển hướng sự nghiệp sang phát triển phần mềm.",
-    "intro3": "Hiện tại tôi đang học Chương trình Advanced Diploma in Software Engineering (ADSE), tập trung vào lập trình, phát triển web.Chuyển nghề là một thử thách lớn, nhưng tôi sẽ luôn nỗ lực cải thiện mỗi ngày.",
+    "intro3": "Hiện tại tôi đang học chương trình Advanced Diploma in Software Engineering (ADSE), tập trung vào lập trình, phát triển web.Chuyển nghề là một thử thách lớn, nhưng tôi sẽ luôn nỗ lực cải thiện mỗi ngày.",
     "hobbies": "Ngoài lập trình, đây là một số hoạt động tôi yêu thích:",
     "hobby1": "Chơi game",
     "hobby2": "Đọc sách và học trên Udemy",
     "hobby3": "Du lịch và khám phá những nơi mới",
     "quote": "\"Thành công không đến từ những gì bạn làm thỉnh thoảng, mà từ những gì bạn làm liên tục.\"",
-    "quoteAuthor": "–Marie Forleo",
+    "quoteAuthor": "– Marie Forleo",
     "futureWork": "Công việc tương lai của tôi",
     "findMe": "TÌM TÔI TRÊN",
     "contactMe": "Liên hệ với tôi"
@@ -53,6 +53,10 @@
     {
       "title": "Dự án E-commerce Website",
       "description": "Xây dựng một website thương mại điện tử chuyên về sản phẩm gaming (gear, phụ kiện, phần mềm)."
+    },
+    {
+      "title": "Dự án Mobile FoodHub",
+      "description": "“APPost là một hệ thống quản lý bưu chính được phát triển để thay thế mô hình phần mềm độc lập mà công ty đang sử dụng. Hệ thống mới cho phép tất cả các chi nhánh kết nối trên một nền tảng trực tuyến thống nhất, giúp quá trình gửi, nhận và theo dõi thư từ, bưu phẩm trở nên nhanh hơn, chính xác hơn và minh bạch hơn.”"
     },
     {
       "title": "Dự án Post office - APPost",
@@ -109,6 +113,12 @@
         "description": "Xây dựng một website thương mại điện tử chuyên về các sản phẩm gaming (gear, phụ kiện, phần mềm).",
         "githubLink": "https://github.com/AnhMinhTruongHoang/Next-Nest-Ecommerce",
         "demoLink": "https://next-nest-ecommerce.vercel.app"
+      },
+      {
+        "title": "FoodHub – Ứng dụng đặt món ăn",
+        "description": "FoodHub là ứng dụng di động đặt món ăn full-stack được xây dựng bằng React Native, Expo Router, NestJS và MongoDB. Ứng dụng hỗ trợ xem nhà hàng, giỏ hàng, voucher, checkout, thanh toán COD, quản lý đơn hàng, đánh giá món ăn và thông báo.",
+        "githubLink": "https://gitlab.com/AnhMinhTruongHoang/native_demo",
+        "demoLink": "https://youtu.be/O7CpAJPUw2Y?si=n-z6Zi7lOKgxf0GW"
       },
       {
         "title": "Quản Lý Bưu Điện – APPost",

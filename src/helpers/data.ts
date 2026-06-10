@@ -2,6 +2,7 @@ import softdink from "../assets/project/softdink.png";
 import ecom from "../assets/project/ecom.png";
 import custom from "../assets/project/custom.png";
 import appostI from "../assets/project/apppost.jpg";
+import foodhub from "../assets/project/foodHub.png";
 
 export const APP_DATA = {
   FACEBOOK_URL: "https://www.facebook.com/minh.anh.223360/",
@@ -71,9 +72,18 @@ export const PROJECTS = [
     githubLink: "https://github.com/AnhMinhTruongHoang/Next-Nest-Ecommerce",
     demoLink: "https://next-nest-ecommerce.vercel.app",
   },
-
   {
     id: 4,
+    imgPath: foodhub,
+    title: "Dự án mobile FoodHub",
+    description:
+      "Xây dựng ứng dụng di động đặt món ăn full-stack với các chức năng xem nhà hàng, giỏ hàng, voucher, checkout, thanh toán COD, theo dõi đơn hàng, đánh giá món ăn và thông báo.",
+    githubLink: "https://gitlab.com/AnhMinhTruongHoang/native_demo",
+    demoLink: "https://youtu.be/O7CpAJPUw2Y?si=n-z6Zi7lOKgxf0GW",
+  },
+
+  {
+    id: 5,
     imgPath: appostI,
     title: "Dự án Post office - APPost",
     description:

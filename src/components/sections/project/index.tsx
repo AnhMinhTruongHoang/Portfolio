@@ -5,10 +5,11 @@ import softdink from "../../../assets/project/softdink.png";
 import ecom from "../../../assets/project/ecom.png";
 import custom from "../../../assets/project/custom.png";
 import appostI from "../../../assets/project/apppost.jpg";
+import foodhub from "../../../assets/project/foodHub.png";
 
 const Project = () => {
   const { t } = useTranslation();
-  const projectsImages = [softdink, custom, ecom, appostI];
+  const projectsImages = [softdink, custom, ecom, foodhub, appostI];
 
   const projects = t("projectsSection.projects", { returnObjects: true }) as {
     title: string;

@@ -35,7 +35,7 @@
     "hobby2": "Reading and learning on Udemy",
     "hobby3": "Traveling and exploring new places",
     "quote": "\"Success doesn’t come from what you do occasionally, but from what you do consistently.\"",
-    "quoteAuthor": "–Marie Forleo",
+    "quoteAuthor": "– Marie Forleo",
     "futureWork": "My Future Work",
     "findMe": "FIND ME ON",
     "contactMe": "Contact Me"
@@ -106,9 +106,15 @@
       },
       {
         "title": "E-commerce Website",
-        "description": "Build an e-commerce website specialized in gaming products (gear, accessories, software).",
+        "description": "Build an Next/Nest JS full-stack e-commerce website specialized in gaming products (gear, accessories, software).",
         "githubLink": "https://github.com/AnhMinhTruongHoang/Next-Nest-Ecommerce",
         "demoLink": "https://next-nest-ecommerce.vercel.app"
+      },
+      {
+        "title": "FoodHub – Food Delivery Mobile App",
+        "description": "FoodHub is a full-stack food delivery mobile application built with React Native, Expo Router, NestJS, and MongoDB. The app allows users to browse restaurants, view food details, add items to cart, apply vouchers, place orders, use COD payment, track order status, receive notifications, and review food items.",
+        "githubLink": "https://gitlab.com/AnhMinhTruongHoang/native_demo",
+        "demoLink": "https://youtu.be/O7CpAJPUw2Y?si=n-z6Zi7lOKgxf0GW"
       },
       {
         "title": "Post Office Management – APPost",
