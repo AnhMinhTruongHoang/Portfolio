@@ -52,7 +52,7 @@ const HeroLeft = (props: IProps) => {
         <SocialMedia
           github={APP_DATA.GITHUB_URL}
           facebook={APP_DATA.FACEBOOK_URL}
-          zalo={APP_DATA.ZALO_URL}
+          zaloPhone={APP_DATA.ZALO_PHONE}
         />
       </div>
       <div className="d-md-flex d-none gap-4">

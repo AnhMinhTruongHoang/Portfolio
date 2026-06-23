@@ -7,7 +7,7 @@ import foodhub from "../assets/project/foodHub.png";
 export const APP_DATA = {
   FACEBOOK_URL: "https://www.facebook.com/minh.anh.223360/",
   GITHUB_URL: "https://github.com/AnhMinhTruongHoang",
-  ZALO_URL: "https://chat.zalo.me/",
+  ZALO_PHONE: "0522033259",
 };
 
 export const EXPERIENCES = [
