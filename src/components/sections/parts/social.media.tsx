@@ -11,7 +11,7 @@ interface ISocialMediaProps {
 const SocialMedia: React.FC<ISocialMediaProps> = ({
   github = "https://github.com/AnhMinhTruongHoang",
   facebook = "https://www.facebook.com/minh.anh.223360/?locale=vi_VN",
-  zaloPhone = "09xxxxxxxx",
+  zaloPhone = "0522033259",
 }) => {
   const [copied, setCopied] = useState(false);
 
