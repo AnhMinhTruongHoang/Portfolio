@@ -43,13 +43,10 @@
   },
   "projects": [
     {
-      "title": "Dự án Landing Page 3D – SoftDrinkX",
-      "description": "Xây dựng một trang landing page 3D giới thiệu loạt sản phẩm nước giải khát mới, lấy cảm hứng từ phong cách landing page của Coca-Cola."
+      "title": "SoundClone – Nền tảng phát nhạc trực tuyến Full-stack",
+      "description": "Xây dựng nền tảng phát nhạc trực tuyến Full-stack với các tính năng khám phá âm nhạc, phát nhạc trực tuyến, playlist, bình luận, lịch sử nghe, quản lý nghệ sĩ, xác thực tài khoản, gói đăng ký và thanh toán trực tuyến."
     },
-    {
-      "title": "Dự án Custom 3D - Jewelry Website",
-      "description": "Xây dựng một website cho phép người dùng tùy chỉnh trang sức 3D (nhẫn, vòng, dây chuyền…) trực tiếp trên trình duyệt."
-    },
+
     {
       "title": "Dự án E-commerce Website",
       "description": "Xây dựng một website thương mại điện tử chuyên về sản phẩm gaming (gear, phụ kiện, phần mềm)."
@@ -57,6 +54,14 @@
     {
       "title": "Dự án Mobile FoodHub",
       "description": "“APPost là một hệ thống quản lý bưu chính được phát triển để thay thế mô hình phần mềm độc lập mà công ty đang sử dụng. Hệ thống mới cho phép tất cả các chi nhánh kết nối trên một nền tảng trực tuyến thống nhất, giúp quá trình gửi, nhận và theo dõi thư từ, bưu phẩm trở nên nhanh hơn, chính xác hơn và minh bạch hơn.”"
+    },
+    {
+      "title": "Dự án Landing Page 3D – SoftDrinkX",
+      "description": "Xây dựng một trang landing page 3D giới thiệu loạt sản phẩm nước giải khát mới, lấy cảm hứng từ phong cách landing page của Coca-Cola."
+    },
+    {
+      "title": "Dự án Custom 3D - Jewelry Website",
+      "description": "Xây dựng một website cho phép người dùng tùy chỉnh trang sức 3D (nhẫn, vòng, dây chuyền…) trực tiếp trên trình duyệt."
     },
     {
       "title": "Dự án Post office - APPost",
@@ -97,6 +102,24 @@
     "subheading": "Dưới đây là một số dự án mà tôi đã thực hiện gần đây.",
     "projects": [
       {
+        "title": "SoundClone – Nền tảng phát nhạc trực tuyến",
+        "description": "SoundClone là nền tảng phát nhạc trực tuyến full-stack, cho phép người dùng khám phá, nghe, tải lên và chia sẻ âm nhạc, cùng các tính năng playlist, bình luận, lịch sử nghe, quản lý nghệ sĩ, xác thực tài khoản, gói đăng ký và thanh toán trực tuyến.",
+        "githubLink": "https://github.com/AnhMinhTruongHoang/Project_04",
+        "demoLink": "https://soundclone-music.vercel.app"
+      },
+      {
+        "title": "Website Thương Mại Điện Tử",
+        "description": "Xây dựng một website full-stack thương mại điện tử chuyên về các sản phẩm gaming (gear, phụ kiện, phần mềm).",
+        "githubLink": "https://github.com/AnhMinhTruongHoang/Next-Nest-Ecommerce",
+        "demoLink": "https://next-nest-ecommerce.vercel.app"
+      },
+      {
+        "title": "FoodHub – Ứng dụng đặt món ăn",
+        "description": "FoodHub là ứng dụng di động đặt món ăn full-stack được xây dựng bằng React Native, Expo Router, NestJS và MongoDB. Ứng dụng hỗ trợ xem nhà hàng, giỏ hàng, voucher, checkout, thanh toán COD, quản lý đơn hàng, đánh giá món ăn và thông báo.",
+        "githubLink": "https://gitlab.com/AnhMinhTruongHoang/native_demo",
+        "demoLink": "https://youtu.be/O7CpAJPUw2Y?si=n-z6Zi7lOKgxf0GW"
+      },
+      {
         "title": "Landing Page 3D – SoftDrinkX",
         "description": "Xây dựng một trang landing page 3D giới thiệu loạt sản phẩm nước giải khát mới, lấy cảm hứng từ các landing page của Coca-Cola.",
         "githubLink": "https://github.com/AnhMinhTruongHoang/SoftDrinkPage",
@@ -107,18 +130,6 @@
         "description": "Xây dựng một website cho phép người dùng tùy chỉnh trang sức 3D (nhẫn, vòng, dây chuyền) trực tiếp trên trình duyệt.",
         "githubLink": "https://github.com/AnhMinhTruongHoang/JohnnyMinhJewelry",
         "demoLink": "https://johnny-minh-jewelry.vercel.app"
-      },
-      {
-        "title": "Website Thương Mại Điện Tử",
-        "description": "Xây dựng một website thương mại điện tử chuyên về các sản phẩm gaming (gear, phụ kiện, phần mềm).",
-        "githubLink": "https://github.com/AnhMinhTruongHoang/Next-Nest-Ecommerce",
-        "demoLink": "https://next-nest-ecommerce.vercel.app"
-      },
-      {
-        "title": "FoodHub – Ứng dụng đặt món ăn",
-        "description": "FoodHub là ứng dụng di động đặt món ăn full-stack được xây dựng bằng React Native, Expo Router, NestJS và MongoDB. Ứng dụng hỗ trợ xem nhà hàng, giỏ hàng, voucher, checkout, thanh toán COD, quản lý đơn hàng, đánh giá món ăn và thông báo.",
-        "githubLink": "https://gitlab.com/AnhMinhTruongHoang/native_demo",
-        "demoLink": "https://youtu.be/O7CpAJPUw2Y?si=n-z6Zi7lOKgxf0GW"
       },
       {
         "title": "Quản Lý Bưu Điện – APPost",

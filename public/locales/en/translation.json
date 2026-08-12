@@ -42,6 +42,19 @@
   },
   "projects": [
     {
+      "title": "SoundClone – Full-stack Music Streaming Platform",
+      "description": "Build a full-stack music streaming platform with music discovery, online audio streaming, playlists, comments, listening history, artist management, authentication, subscriptions, and online payment."
+    },
+    {
+      "title": "E-commerce Website",
+      "description": "Build an e-commerce website specialized in gaming products (gear, accessories, software)."
+    },
+
+    {
+      "title": "FoodHub – Full-stack Food Delivery Mobile App",
+      "description": "Build a full-stack food delivery mobile application with restaurant discovery, food browsing, shopping cart, vouchers, checkout, COD payment, order management, reviews, and notifications using React Native, Expo Router, NestJS, and MongoDB."
+    },
+    {
       "title": "3D Landing Page – SoftDrinkX",
       "description": "Build a 3D landing page introducing a new soft drink product line, inspired by Coca-Cola's landing pages."
     },
@@ -49,10 +62,7 @@
       "title": "Custom 3D Jewelry Website",
       "description": "Build a website that allows users to customize 3D jewelry (rings, bracelets, necklaces) directly in the browser."
     },
-    {
-      "title": "E-commerce Website",
-      "description": "Build an e-commerce website specialized in gaming products (gear, accessories, software)."
-    },
+
     {
       "title": "Post Office Management – APPost",
       "description": "APPost is a postal management system developed to replace standalone software used by the company. The new system allows all branches to connect on a unified online platform, making sending, receiving, and tracking mails and parcels faster, more accurate, and transparent."
@@ -93,16 +103,10 @@
     "subheading": "Here are a few projects I've worked on recently.",
     "projects": [
       {
-        "title": "3D Landing Page – SoftDrinkX",
-        "description": "Build a 3D landing page introducing a new soft drink product line, inspired by Coca-Cola's landing pages.",
-        "githubLink": "https://github.com/AnhMinhTruongHoang/SoftDrinkPage",
-        "demoLink": "https://soft-drink-page.vercel.app"
-      },
-      {
-        "title": "Custom 3D Jewelry Website",
-        "description": "Build a website that allows users to customize 3D jewelry (rings, bracelets, necklaces) directly in the browser.",
-        "githubLink": "https://github.com/AnhMinhTruongHoang/JohnnyMinhJewelry",
-        "demoLink": "https://johnny-minh-jewelry.vercel.app"
+        "title": "SoundClone – Music Streaming Platform",
+        "description": "SoundClone is a full-stack music streaming platform that allows users to discover, stream, upload, and share music, with playlists, comments, listening history, artist features, authentication, subscriptions, and online payment.",
+        "githubLink": "https://github.com/AnhMinhTruongHoang/Project_04",
+        "demoLink": "https://soundclone-music.vercel.app"
       },
       {
         "title": "E-commerce Website",
@@ -116,6 +120,19 @@
         "githubLink": "https://gitlab.com/AnhMinhTruongHoang/native_demo",
         "demoLink": "https://youtu.be/O7CpAJPUw2Y?si=n-z6Zi7lOKgxf0GW"
       },
+      {
+        "title": "3D Landing Page – SoftDrinkX",
+        "description": "Build a 3D landing page introducing a new soft drink product line, inspired by Coca-Cola's landing pages.",
+        "githubLink": "https://github.com/AnhMinhTruongHoang/SoftDrinkPage",
+        "demoLink": "https://soft-drink-page.vercel.app"
+      },
+      {
+        "title": "Custom 3D Jewelry Website",
+        "description": "Build a website that allows users to customize 3D jewelry (rings, bracelets, necklaces) directly in the browser.",
+        "githubLink": "https://github.com/AnhMinhTruongHoang/JohnnyMinhJewelry",
+        "demoLink": "https://johnny-minh-jewelry.vercel.app"
+      },
+
       {
         "title": "Post Office Management – APPost",
         "description": "APPost is a postal management system developed to replace standalone software used by the company. The new system allows all branches to connect on a unified online platform, making sending, receiving, and tracking mails and parcels faster, more accurate, and transparent.",

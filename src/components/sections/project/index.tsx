@@ -6,10 +6,11 @@ import ecom from "../../../assets/project/ecom.png";
 import custom from "../../../assets/project/custom.png";
 import appostI from "../../../assets/project/apppost.jpg";
 import foodhub from "../../../assets/project/foodHub.png";
+import soundclone from "../../../assets/project/soundclone.png";
 
 const Project = () => {
   const { t } = useTranslation();
-  const projectsImages = [softdink, custom, ecom, foodhub, appostI];
+  const projectsImages = [soundclone, ecom, foodhub, softdink, custom, appostI];
 
   const projects = t("projectsSection.projects", { returnObjects: true }) as {
     title: string;
