@@ -38,8 +38,8 @@ export const EXPERIENCES = [
       en: "Software Engineering",
     },
     duration: {
-      vi: "2024 - hiện tại",
-      en: "2024 - present",
+      vi: "2024 - 2026",
+      en: "2024 - 2026",
     },
   },
 ];
